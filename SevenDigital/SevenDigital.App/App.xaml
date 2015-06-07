@@ -1,0 +1,17 @@
+﻿<cm:CaliburnApplication
+    x:Class="SevenDigital.App.App"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:cm="using:Caliburn.Micro"
+    RequestedTheme="Light">
+    
+    <cm:CaliburnApplication.Resources>
+        <Color x:Key="ButtonBackgroundColor">#FF07606E</Color>
+        
+        <SolidColorBrush x:Key="MajorAccentBrush" Color="#FF07606E" />
+        <SolidColorBrush x:Key="MinorAccentBrush" Color="#FF048DA3" />
+
+        <x:String x:Key="DefaultBio">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse gravida aliquam turpis, at efficitur erat lacinia eget. Cras porta ut nunc vitae accumsan. Mauris non velit placerat, finibus dui eget, porttitor mauris. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Maecenas sit amet ante quam. Fusce rhoncus aliquet purus, non porta nulla convallis ac. Praesent arcu nisi, varius a orci id, pharetra dignissim lectus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed imperdiet erat nisl. Donec lectus lorem, ultricies tristique mollis at, laoreet eget nisi. Pellentesque elementum magna eu ex pellentesque, at egestas magna pulvinar. Nunc porta sed nibh eget dictum. Nullam rutrum a purus nec eleifend. Fusce viverra tortor sed efficitur lacinia. Ut faucibus odio nec nisi dictum, et laoreet urna ornare.</x:String>
+    </cm:CaliburnApplication.Resources>
+
+</cm:CaliburnApplication>
