@@ -34,7 +34,7 @@
                        RelativePanel.Below="ArtistImage" RelativePanel.AlignRightWith="ArtistImage"
                    />
 
-                <MediaElement x:Name="MediaPlayer" Width="200" 
+                <MediaElement x:Name="MediaPlayer" Width="200" AutoPlay="False"
                           RelativePanel.AlignLeftWithPanel="True"
                           RelativePanel.Below="BioText"/>
             </RelativePanel>
@@ -71,7 +71,7 @@
     <Page.BottomAppBar>
         <CommandBar Background="{StaticResource MajorAccentBrush}" RequestedTheme="Dark">
             <CommandBar.PrimaryCommands>
-                <AppBarButton x:Name="RefreshChart" Label="Refresh" Icon="Refresh" />
+                <AppBarButton x:Name="Pin" Label="Pin" Icon="Pin" />
             </CommandBar.PrimaryCommands>
         </CommandBar>
     </Page.BottomAppBar>

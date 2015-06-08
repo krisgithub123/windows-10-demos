@@ -1,0 +1,24 @@
+﻿<tile version="3">
+  <visual>
+    <binding template="TileMedium" branding="none">
+      <image placement="background" src="{0}" />
+      <group>
+        <subgroup>
+          <text hint-style="body">{1}</text>
+          <text hint-style="caption" hint-wrap="true">{2}</text>
+        </subgroup>
+      </group>
+    </binding>
+    <binding template="TileWide" branding="none">
+      <group>
+        <subgroup hint-weight="40">
+          <image placement="inline" src="{0}" />
+        </subgroup>
+        <subgroup>
+          <text hint-style="body">{1}</text>
+          <text hint-style="caption" hint-wrap="true">{2}</text>
+        </subgroup>
+      </group>
+    </binding>
+  </visual>
+</tile>
