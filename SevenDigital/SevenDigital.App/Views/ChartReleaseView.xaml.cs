@@ -13,15 +13,13 @@ using Windows.UI.Xaml.Input;
 using Windows.UI.Xaml.Media;
 using Windows.UI.Xaml.Navigation;
 
-// The User Control item template is documented at http://go.microsoft.com/fwlink/?LinkId=234236
-
 namespace SevenDigital.App.Views
 {
-    public sealed partial class ChartReleaseView : UserControl
+    public sealed partial class ChartReleaseView
     {
         public ChartReleaseView()
         {
-            this.InitializeComponent();
+            InitializeComponent();
         }
     }
 }
